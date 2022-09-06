@@ -1,178 +1,508 @@
 {
-	"adjectives": [
-		{"prompt":"hungry"},
-		{"prompt":"deep sea"},
-		],
-	"subject": [
-		{"prompt": "person wearing power armor", "singular": yes},
-		{"prompt": "buffaloes","singular":no},
-		{"prompt": "elf princess","singular":yes},
-		{"prompt": "people","singular":no},
-		{"prompt": "android","singular":yes},	
-		{"prompt": "pair of mechanical cats","singular":no},	
-		{"prompt": "city of rapture","singular":no},
-		{"prompt": "butterfly","singular":yes},		
-		{"prompt": "horse","singular":yes},
-		{"prompt": "Archangel Michael","singular":yes},
-		{"prompt": "dogs", "singular":no},
-		{"prompt": "friends", "singular":no},
-		{"prompt": "everything bagel", "singular":yes},
-		{"prompt": "pistol", "singular":yes},
-		{"prompt": "tourists", "singular":yes},
-		{"prompt": "child", "singular":yes},
-		{"prompt": "children", "singular":no},
-		{"prompt": "intern", "singular":yes},
-		{"prompt": "shiba", "singular":yes},
-		{"prompt": "racing drone", "singular":yes},
-		{"prompt": "sunlight", "singular":yes},
-		{"prompt": "a chicken", "singular":yes},
-
+	"adjectives": [{
+			"prompt": "hungry"
+		},
+		{
+			"prompt": "deep sea"
+		}
 	],
-	"action": [
-		{"prompt": "butting heads", "singular":no},
-		{"prompt": "hugging each other", "singular":no},
-		{"prompt":"cuts a path", "singular":yes},
-		{"prompt": "leap through the air", "singular":no},
-		{"prompt": "leaps through the air", "singular":yes},
-		{"prompt": "races", "singular":yes},
-		{"prompt": "race", "singular":no},
-		{"prompt": "holds a flaming sword", "singular":yes},
-		{"prompt": "pulling a sled"},
-		{"prompt": "playing frisbee"},
-		{"prompt": "hanging out"},
-		{"prompt": "firing"},
-		{"prompt": "clutching umbrellas"},
-		{"prompt": "playing a piano"},
-		{"prompt": "programs a retro 80's computer with a large CRT monitor"},
-		{"prompt": "operates a lighthouse", "singular":yes},
-		{"prompt": "whizzes by", "singular":yes},
-		{"prompt": "falls", "singular":yes},
-		{"prompt": "rollerblading", "singular":yes},
+	"subject": [{
+			"prompt": "person wearing power armor",
+			"singular": true
+		},
+		{
+			"prompt": "buffaloes",
+			"singular": false
+		},
+		{
+			"prompt": "elf princess",
+			"singular": true
+		},
+		{
+			"prompt": "people",
+			"singular": false
+		},
+		{
+			"prompt": "android",
+			"singular": true
+		},
+		{
+			"prompt": "pair of mechanical cats",
+			"singular": false
+		},
+		{
+			"prompt": "city of rapture",
+			"singular": false
+		},
+		{
+			"prompt": "butterfly",
+			"singular": true
+		},
+		{
+			"prompt": "horse",
+			"singular": true
+		},
+		{
+			"prompt": "Archangel Michael",
+			"singular": true
+		},
+		{
+			"prompt": "dogs",
+			"singular": false
+		},
+		{
+			"prompt": "friends",
+			"singular": false
+		},
+		{
+			"prompt": "everything bagel",
+			"singular": true
+		},
+		{
+			"prompt": "pistol",
+			"singular": true
+		},
+		{
+			"prompt": "tourists",
+			"singular": true
+		},
+		{
+			"prompt": "child",
+			"singular": true
+		},
+		{
+			"prompt": "children",
+			"singular": false
+		},
+		{
+			"prompt": "intern",
+			"singular": true
+		},
+		{
+			"prompt": "shiba",
+			"singular": true
+		},
+		{
+			"prompt": "racing drone",
+			"singular": true
+		},
+		{
+			"prompt": "sunlight",
+			"singular": true
+		},
+		{
+			"prompt": "a chicken",
+			"singular": true
+		}
+	],
+	"action": [{
+			"prompt": "butting heads",
+			"singular": false
+		},
+		{
+			"prompt": "hugging each other",
+			"singular": false
+		},
+		{
+			"prompt": "cuts a path",
+			"singular": true
+		},
+		{
+			"prompt": "leap through the air",
+			"singular": false
+		},
+		{
+			"prompt": "leaps through the air",
+			"singular": true
+		},
+		{
+			"prompt": "races",
+			"singular": true
+		},
+		{
+			"prompt": "race",
+			"singular": false
+		},
+		{
+			"prompt": "holds a flaming sword",
+			"singular": true
+		},
+		{
+			"prompt": "pulling a sled"
+		},
+		{
+			"prompt": "playing frisbee"
+		},
+		{
+			"prompt": "hanging out"
+		},
+		{
+			"prompt": "firing"
+		},
+		{
+			"prompt": "clutching umbrellas"
+		},
+		{
+			"prompt": "playing a piano"
+		},
+		{
+			"prompt": "programs a retro 80's computer with a large CRT monitor"
+		},
+		{
+			"prompt": "operates a lighthouse",
+			"singular": true
+		},
+		{
+			"prompt": "whizzes by",
+			"singular": true
+		},
+		{
+			"prompt": "falls",
+			"singular": true
+		},
+		{
+			"prompt": "rollerblading",
+			"singular": true
+		}
+	],
+
+	"prompts": [{
+			"prompt": "an avalanche"
+		},
+		{
+			"prompt": "a wedding"
+		},
+		{
+			"prompt": "the end of the world"
+		},
+		{
+			"prompt": "a busy spaceport"
+		},
+
+		{
+			"prompt": "A mecha sits on a bridge while dangling its feet in the water"
+		},
+
+		{
+			"prompt": "A car chase"
+		},
+		{
+			"prompt": "Sunlight falls on a cozy reading place"
+		}
+	],
+	"styles": [{
+			"name": "Salvador Dali"
+		},
+		{
+			"name": "synthwave"
+		},
+		{
+			"name": "photo-realism"
+		},
+		{
+			"name": "impressionistic"
+		},
+		{
+			"name": "Ansel Adams"
+		},
+		{
+			"name": "pulp falsevel cover"
+		},
+		{
+			"name": "MCU movie poster"
+		},
+		{
+			"name": "Simon Stålenhag"
+		},
+		{
+			"name": "New Yorker Cartoon"
+		},
+		{
+			"name": "Lisa Frank"
+		},
+		{
+			"name": "K-Pop"
+		},
+		{
+			"name": "Greeting Card"
+		},
+		{
+			"name": "Claude Monet"
+		},
+		{
+			"name": "charcoal drawing"
+		},
+		{
+			"name": "pablo picasso"
+		},
+		{
+			"name": "Saul Bass"
+		},
+		{
+			"name": "Tim Burton"
+		},
+		{
+			"name": "Unreal Engine"
+		},
+		{
+			"name": "Japanese folk art"
+		},
+		{
+			"name": "tarot card"
+		},
+		{
+			"name": "Henri Rousseau"
+		},
+		{
+			"name": "Juri Arrak"
+		},
+		{
+			"name": "Bauhaus"
+		},
+		{
+			"name": "Gustav Klimt"
+		},
+		{
+			"name": "Pixar"
+		},
+		{
+			"name": "steampunk"
+		},
+		{
+			"name": "celtic"
+		},
+		{
+			"name": "Renaissance"
+		},
+		{
+			"name": "abstract"
+		},
+		{
+			"name": "classical painting"
+		},
+		{
+			"name": "Aztec"
+		},
+		{
+			"name": "mugshot"
+		},
+		{
+			"name": "claymation"
+		},
+		{
+			"name": "embroidery art"
+		},
+		{
+			"name": "Shepard Fairey"
+		},
+		{
+			"name": "Andy Warhol"
+		},
+		{
+			"name": "Keith Haring"
+		},
+		{
+			"name": "pop art"
+		},
+		{
+			"name": "comic"
+		},
+		{
+			"name": "line art"
+		},
+		{
+			"flavor": "cyberpunk"
+		}
+	],
+	"environments": [{
+			"location": "grasslands"
+		},
+		{
+			"location": "field"
+		},
+		{
+			"location": "midieval forest"
+		},
+		{
+			"location": "fantasy castle"
+		},
+		{
+			"location": "city"
+		},
+		{
+			"location": "casino"
+		},
+		{
+			"location": "arena"
+		},
+		{
+			"location": "a strange planet"
+		},
+		{
+			"location": "a mountaintop"
+		},
+		{
+			"location": "a drainage ditch"
+		},
+		{
+			"location": "heaven"
+		},
+		{
+			"location": "the beach"
+		},
+		{
+			"location": "the clouds"
+		},
+		{
+			"location": "Atlantis"
+		},
+		{
+			"location": "lavender farm"
+		},
+		{
+			"location": "farm house"
+		},
+		{
+			"location": "Paris skyline"
+		},
+		{
+			"location": "Midwest"
+		},
+		{
+			"location": "Times Square"
+		},
+		{
+			"location": "Hollywood"
+		},
+		{
+			"location": "skid row"
+		},
+		{
+			"location": "Tin pan alley"
+		},
+		{
+			"location": "battlefield"
+		},
+		{
+			"location": "spaceship"
+		},
+		{
+			"location": "dinner table"
+		},
+		{
+			"location": "home office"
+		},
+		{
+			"location": "executive suite"
+		},
+		{
+			"location": "music festival"
+		},
+		{
+			"location": "teotihuacan"
+		},
+		{
+			"location": "Hong Kong"
+		},
+		{
+			"location": "Mexico City"
+		},
+		{
+			"location": "Brazilian Favela"
+		},
+		{
+			"location": "arctic crab boat"
+		},
+		{
+			"location": "a sportsbar"
+		},
+		{
+			"location": "a British Pub"
+		},
+		{
+			"location": "a community center"
+		},
+		{
+			"location": "a potluck"
+		},
+		{
+			"location": "a building's skeleton"
+		},
+		{
+			"location": "a ribboncutting"
+		}
+	],
+	"aesthetic": [{
+			"flavor": "Golden hour"
+		},
+		{
+			"flavor": "Long Exposure"
+		},
+		{
+			"flavor": "Timelapse"
+		},
+		{
+			"flavor": "gritty"
+		},
+		{
+			"flavor": "grimdark"
+		},
+		{
+			"flavor": "futuristic"
+		},
+		{
+			"flavor": "gothic"
+		},
+		{
+			"flavor": "neon"
+		},
+		{
+			"flavor": "oil painting"
+		},
+		{
+			"flavor": "cinematic"
+		},
+		{
+			"flavor": "epic"
+		},
+		{
+			"flavor": "isometric"
+		},
+		{
+			"flavor": "volumetric lighting"
+		},
+		{
+			"flavor": "cell shaded"
+		},
+		{
+			"flavor": "glitter"
+		},
+		{
+			"flavor": "digital art"
+		},
+		{
+			"flavor": "9:16 portrait"
+		},
+		{
+			"flavor": "futuristic"
+		},
+		{
+			"flavor": "sleek"
+		},
+		{
+			"flavor": "homespun"
+		},
+		{
+			"flavor": "muppet"
+		},
+		{
+			"flavor": "moonlight"
+		},
+		{
+			"flavor": "raining"
+		},
+		{
+			"flavor": "closing time"
+		}
 	]
-	
-	"prompts": [
-    
-
-    { "prompt": "an avalanche"},
-    { "prompt": "a wedding"},
-    { "prompt": "the end of the world"},
-   { "prompt": "a busy spaceport"},
-
-    { "prompt": "A mecha sits on a bridge while dangling its feet in the water"},
-
-    { "prompt": "A car chase"},
-    { "prompt": "Sunlight falls on a cozy reading place"}, 
-    
-	],
-  "styles": [
-    { "name":"Salvador Dali" },
-    { "name":"synthwave" },
-    { "name":"photo-realism" },
-    { "name":"impressionistic" },
-    { "name":"Ansel Adams" },
-    { "name":"pulp novel cover" },
-    { "name":"MCU movie poster" },
-    { "name": "Simon Stålenhag"},
-    { "name": "New Yorker Cartoon"},
-    { "name": "Lisa Frank"},
-    { "name": "K-Pop"},
-    { "name": "Greeting Card"},
-    { "name": "Claude Monet"},
-    { "name": "charcoal drawing"},
-    { "name": "pablo picasso"},
-    { "name": "Saul Bass"},
-    { "name": "Tim Burton"},
-    { "name": "Unreal Engine"},
-    { "name": "Japanese folk art"},
-    { "name": "tarot card"},
-    { "name": "Henri Rousseau" },
-    { "name": "Juri Arrak" },
-    { "name": "Bauhaus" },
-    { "name": "Gustav Klimt" },
-    { "name": "Pixar" },
-    { "name": "steampunk" },
-    { "name": "celtic" },
-    { "name": "Renaissance" },
-    { "name": "abstract" },
-    { "name": "classical painting" },
-    { "name": "Aztec" },
-    { "name": "mugshot" },
-    { "name": "claymation" },
-    { "name": "embroidery art" },
-    { "name": "Shepard Fairey" },
-    { "name": "Andy Warhol" },
-    { "name": "Keith Haring" },    
-    { "name": "pop art" }, 
-    { "name": "comic" }, 
-{ "name": "line art" }, 
-    { "flavor":"cyberpunk" },
-  ],
-  "environments": [
-    { "location":"grasslands" },
-    { "location":"field" },
-    { "location":"midieval forest" },
-    { "location":"fantasy castle" },    
-    { "location":"city" },
-    { "location":"casino" },
-    { "location":"arena" },
-    { "location":"a strange planet" },
-    { "location":"a mountaintop" },
-    { "location":"a drainage ditch" },
-    { "location":"heaven" },
-    { "location":"the beach" },
-    { "location":"the clouds" },
-    { "location":"Atlantis" },
-    { "location":"lavender farm" },
-    { "location":"farm house" },
-    { "location":"Paris skyline" },
-    { "location":"Midwest" },
-    { "location":"Times Square" },
-    { "location":"Hollywood" },
-    { "location":"skid row" },
-    { "location":"Tin pan alley" },
-    { "location":"battlefield" },
-    { "location":"spaceship" },
-    { "location":"dinner table" },
-    { "location":"home office" },
-    { "location":"executive suite" },
-    { "location":"music festival" },
-    { "location":"teotihuacan" },    
-    { "location":"Hong Kong" },  
-    { "location":"Mexico City" },
-    { "location":"Brazilian Favela" },
-    { "location":"arctic crab boat" },    
-    { "location":"a sportsbar" },
-    { "location":"a British Pub" },
-    { "location":"a community center" },
-    { "location":"a potluck" },
-    { "location":"a building's skeleton" },
-    { "location":"a ribboncutting" },
-    ],
-  "aesthetic": [
-    { "flavor":"Golden hour"},
-    { "flavor":"Long Exposure"},
-    { "flavor":"Timelapse"},
-    { "flavor":"gritty"},
-    { "flavor":"grimdark"},
-    { "flavor":"futuristic"},
-    { "flavor":"gothic"},
-    { "flavor":"neon"},
-    { "flavor":"oil painting"},
-    { "flavor":"cinematic" },  
-    { "flavor":"epic" },
-    { "flavor":"isometric" },
-    { "flavor":"volumetric lighting" },
-    { "flavor":"cell shaded" },
-    { "flavor":"glitter" },
-    { "flavor":"digital art" },
-    { "flavor":"9:16 portrait" },
-    { "flavor":"futuristic" },
-    { "flavor":"sleek" },
-    { "flavor":"homespun" },
-    { "flavor":"muppet" },
-    { "flavor":"moonlight" },
-    { "flavor":"raining" },
-    { "flavor":"closing time" },
-
-    ]
 }
