@@ -4,7 +4,21 @@
 		},
 		{
 			"prompt": "deep sea"
+		},
+		{
+			"prompt": "fluffy"
+		},
+		{
+			"prompt": "concerned"
+		},
+		{
+			"prompt": "gritty"
+		},
+
+	       {
+			"prompt": "pink"
 		}
+		       
 	],
 	"subject": [{
 			"prompt": "person wearing power armor",
@@ -15,6 +29,11 @@
 			"singular": false
 		},
 		{
+			"prompt": "dinosaurs",
+			"singular": false
+		},
+
+		    {
 			"prompt": "elf princess",
 			"singular": true
 		},
@@ -51,6 +70,78 @@
 			"singular": false
 		},
 		{
+			"prompt": "film-maker",
+			"singular": true
+		},
+		{
+			"prompt": "hero",
+			"singular": true
+		},
+		{
+			"prompt": "treehouse",
+			"singular": true
+		},
+		{
+			"prompt": "spitfire",
+			"singular": true
+		},
+		{
+			"prompt": "camera",
+			"singular": true
+		},
+
+		    {
+			"prompt": "starfighter",
+			"singular": true
+		},
+		{
+			"prompt": "chefs",
+			"singular": false
+		},
+		{
+			"prompt": "telephones",
+			"singular": false
+		},
+		{
+			"prompt": "books",
+			"singular": false
+		},
+		{
+			"prompt": "motorcycles",
+			"singular": false
+		},
+		{
+			"prompt": "banker",
+			"singular": true
+		},
+		{
+			"prompt": "convention",
+			"singular": true
+		},
+		{
+			"prompt": "drive-in theater",
+			"singular": true
+		},
+		    
+		{
+			"prompt": "ski-jumper",
+			"singular": true
+		},
+		{
+			"prompt": "Olympians",
+			"singular": false
+		},
+		{
+			"prompt": "bomb",
+			"singular": true
+		},
+		    
+		{
+			"prompt": "cosplayers",
+			"singular": false
+		},
+
+		    {
 			"prompt": "friends",
 			"singular": false
 		},
@@ -91,6 +182,64 @@
 			"singular": true
 		},
 		{
+			"prompt": "intimacy",
+			"singular": true
+		},
+		{
+			"prompt": "the diner crowd",
+			"singular": true
+		},
+		{
+			"prompt": "a hiccup",
+			"singular": true
+		},
+		{
+			"prompt": "a universe",
+			"singular": true
+		},
+		{
+			"prompt": "a pride of lions",
+			"singular": true
+		},
+		{
+			"prompt": "a writer",
+			"singular": true
+		},
+		{
+			"prompt": "a sidecar full of muppets",
+			"singular": true
+		},
+		{
+			"prompt": "an illustrator",
+			"singular": true
+		},
+		{
+			"prompt": "a photograph",
+			"singular": true
+		},
+		{
+			"prompt": "an executive",
+			"singular": true
+		},
+		{
+			"prompt": "cowboy",
+			"singular": true
+		},
+		{
+			"prompt": "cheerleader",
+			"singular": true
+		},
+		{
+			"prompt": "athlete",
+			"singular": true
+		},
+
+		    {
+			"prompt": "sunlight",
+			"singular": true
+		},
+
+		    {
 			"prompt": "a chicken",
 			"singular": true
 		}
@@ -163,8 +312,257 @@
 		{
 			"prompt": "rollerblading",
 			"singular": true
+		},
+		{
+			"prompt": "performs a seance",
+			"singular": true
+		},
+		{
+			"prompt": "careens off a jump",
+			"singular": true
+		},
+		{
+			"prompt": "dodges a swing",
+			"singular": true
+		},
+		{
+			"prompt": "smells a flower",
+			"singular": true
+		},
+		{
+			"prompt": "makes a model",
+			"singular": true
+		},
+		{
+			"prompt": "paints a picture",
+			"singular": true
+		},
+		{
+			"prompt": "pets a dog",
+			"singular": true
+		},
+		{
+			"prompt": "ducks under a spiderweb",
+			"singular": true
+		},
+		{
+			"prompt": "reshelves a book",
+			"singular": true
+		},
+		{
+			"prompt": "works on a car",
+			"singular": true
+		},
+		{
+			"prompt": "photographs a day in the life of a medievil serf",
+			"singular": true
+		},
+		{
+			"prompt": "jams onstage",
+			"singular": true
+		},
+		{
+			"prompt": "loves a giant amplifier",
+			"singular": true
+		},
+		{
+			"prompt": "drives a cable car",
+			"singular": true
+		},
+		{
+			"prompt": "crushes a factory",
+			"singular": true
+		},
+		{
+			"prompt": "robs a bank",
+			"singular": true
+		},
+		{
+			"prompt": "reconsiders their life decisions",
+			"singular": true
+		},
+		{
+			"prompt": "comforts a clown",
+			"singular": true
+		},
+		{
+			"prompt": "drawing",
+			"singular": true
+		},
+		{
+			"prompt": "hotrods their ennui",
+			"singular": true
+		},
+		{
+			"prompt": "demands a new ship",
+			"singular": true
+		},
+		{
+			"prompt": "fixes a radar dish",
+			"singular": true
+		},
+		{
+			"prompt": "washes the dishes",
+			"singular": true
+		},
+		{
+			"prompt": "maintains the peace",
+			"singular": true
+		},
+		{
+			"prompt": "hotrods their ennui",
+			"singular": true
+		},
+		{
+			"prompt": "watches TV",
+			"singular": true
+		},
+		{
+			"prompt": "rivets an mechanical juncture",
+			"singular": true
+		},
+		{
+			"prompt": "kitbashes a robot",
+			"singular": true
+		},
+		{
+			"prompt": "catches a timebomb",
+			"singular": true
+		},
+		{
+			"prompt": "walks the red carpet",
+			"singular": true
+		},
+		{
+			"prompt": "conveys a meeting",
+			"singular": true
+		},
+		{
+			"prompt": "leads a crowd",
+			"singular": true
+		},
+		{
+			"prompt": "pitches a fit",
+			"singular": true
+		},
+
+		   {
+			"prompt": "teaches a class",
+			"singular": true
+		},
+		{
+			"prompt": "conveys a meeting",
+			"singular": true
+		},
+		{
+			"prompt": "reloads a blaster",
+			"singular": true
+		},
+		{
+			"prompt": "pulls a rabbit out of a hat",
+			"singular": true
+		},
+		{
+			"prompt": "stares at the moon",
+			"singular": true
+		},
+		{
+			"prompt": "punches a hole through space/time",
+			"singular": true
+		},
+		{
+			"prompt": "reconsiders a point of few",
+			"singular": true
+		},
+		{
+			"prompt": "studies new information",
+			"singular": true
+		},
+		{
+			"prompt": "dresses up for Halloween",
+			"singular": true
+		},
+		{
+			"prompt": "sets the table for a special meal",
+			"singular": true
+		},
+		{
+			"prompt": "gets a pizza delivered",
+			"singular": true
+		},
+		{
+			"prompt": "kicks the bucket",
+			"singular": true
+		},	   
+		   		{
+			"prompt": "washes their time machine",
+			"singular": true
+		},
+		{
+			"prompt": "argues why they shouldn't have a speeding ticket",
+			"singular": true
+		},
+		{
+			"prompt": "summons the force",
+			"singular": true
+		},
+		{
+			"prompt": "buys a monster truck",
+			"singular": true
+		},
+   		{
+			"prompt": "leaves for college",
+			"singular": true
+		},
+		{
+			"prompt": "invents a mythology",
+			"singular": true
+		},
+		{
+			"prompt": "launches a sneak attack",
+			"singular": true
+		},
+		{
+			"prompt": "captures light in a bottle",
+			"singular": true
+		},
+		{
+			"prompt": "bonds with pirates over a campfire",
+			"singular": true
+		},
+		{
+			"prompt": "tap-dances across a bridge",
+			"singular": true
+		},
+		{
+			"prompt": "tags a building with graffitti",
+			"singular": true
+		},
+
+		   {
+			"prompt": "plays leap-frog with expectation",
+			"singular": true
+		},
+
+
+		{
+			"prompt": "fills the shoes of the dinosaurs that came before",
+			"singular": true
+		},
+		   {
+			"prompt": "rallies the troops",
+			"singular": true
+		},
+		{
+			"prompt": "chauffeurs three ideas to a playdate",
+			"singular": true
+		},		   
+		   {
+			"prompt": "knows the score",
+			"singular": true
 		}
-	],
+
+		  ],
 
 	"prompts": [{
 			"prompt": "an avalanche"
@@ -194,6 +592,15 @@
 			"name": "Salvador Dali"
 		},
 		{
+			"name": "Ralph McQuarrie"
+		},
+		{
+			"name": "Norman Rockwell"
+		},
+		{
+			"name": "vaporware"
+		},
+		   {
 			"name": "synthwave"
 		},
 		{
@@ -321,6 +728,54 @@
 			"location": "field"
 		},
 		{
+			"location": "Wild West"
+		},
+		{
+			"location": "desert sands"
+		},
+		{
+			"location": "a guilded museum"
+		},
+		{
+			"location": "a backstage lot"
+		},
+		{
+			"location": "the airport"
+		},
+		{
+			"location": "the heart of the universe"
+		},
+		{
+			"location": "menagerie of imagination"
+		},
+		{
+			"location": "front of a roaring fire"
+		},
+		{
+			"location": "the rodeo"
+		},
+		{
+			"location": "school"
+		},
+		{
+			"location": "factory"
+		},
+		{
+			"location": "Sherwood Forest"
+		},
+
+		{
+			"location": "menagerie of imagination"
+		},
+
+		{
+			"location": "drive-in"
+		},			 
+		{
+			"location": "an interview"
+		},
+			 
+			 {
 			"location": "midieval forest"
 		},
 		{
